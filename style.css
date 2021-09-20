@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* Dimon section css */
+.dimon-c-block {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid gray;
+  box-shadow: 10px 5px 5px red;
+  margin: 0 auto;
+}
+.dimon-c-block__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.dimon-c-block__audio {
+  margin-top: 20px;
+}
+.dimon-e-block__audio {
+  max-width: 300px;
+  width: 100%;
+}
