@@ -75,3 +75,24 @@ li {
   text-align: center;
 }
 /* end of footer block */
+.leks-e-block {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 0;
+  
+}
+.leks-e-block__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 20px;
+  
+}
+.leks-e-block:hover {
+  background-color: black;
+  transition: 1s;
+}
