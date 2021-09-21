@@ -18,6 +18,66 @@ body {
   text-align: center;
 }
 
+
+
+
+
+
+
+/* Dimon section css */
+.dimon-c-navigation{
+  width: fit-content;
+  cursor: pointer;
+  min-height: 50px;
+  border: 2px solid black;
+  background-color: green;
+}
+.dimon-c-navigation__wrapper{  
+  min-height: 50px;
+  display: flex;
+  min-width: 30%;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.dimon-e-navigation__item {
+  min-height: 50px;
+  flex-basis: 25%;
+  list-style: none;
+}
+.dimon-e-navigation__item > a {
+  text-decoration: none;
+  display: block;
+  min-height: 50px;
+  margin-top: 25px;
+  color: cyan;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.dimon-e-navigation__item:hover {
+  background-color: blueviolet;
+}
+.dimon-c-block {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid gray;
+  box-shadow: 10px 5px 5px red;
+  margin: 0 auto;
+}
+.dimon-c-block__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.dimon-c-block__audio {
+  margin-top: 20px;
+}
+.dimon-e-block__audio {
+  max-width: 300px;
+  width: 100%;
+}
+
 /* trit nav */
 .trit-c-nav__wrapper {
   padding: 20px 0;
@@ -63,6 +123,7 @@ body {
 }
 /* end of trit section */
 /* end of main */
+
 
 /* footer */
 .c-footer {
