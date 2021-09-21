@@ -31,6 +31,44 @@ li {
   padding: 50px;
 }
 
+/* trit nav */
+.trit-c-navigation__item {
+  background-color: yellow;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 0;
+}
+
+.trit-c-navigation__item:hover {
+  background-color: cornflowerblue;
+}
+.trit-c-navigation__link {
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 50px;
+}
+/* end of trit nav block */
+
+/* trit section */
+.trit-c-main {
+  border: 2px dashed black;
+  text-align: center;
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.trit-c-main__title-name {
+  font-size: 40px;
+}
+
+.trit-c-main__text-quote {
+  font-size: 20px;
+}
+/* end of trit section */
+
 /* footer */
 .c-footer {
   padding: 20px 0 10px;
