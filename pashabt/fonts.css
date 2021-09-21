@@ -1,0 +1,10 @@
+@font-face {
+    font-family: GLR-BLD;
+    src: url(./Fonts/Gilroy-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: GLR-MED;
+    src: url(./Fonts/Gilroy-Medium.ttf);
+}
