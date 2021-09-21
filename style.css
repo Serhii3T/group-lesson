@@ -1,9 +1,62 @@
+/* global style */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+body {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* end of global style */
+
+/* header */
+.c-header__main-title {
+  text-align: center;
+}
+
+
+
+
+
+
+
 /* Dimon section css */
+.dimon-c-navigation{
+  width: fit-content;
+  cursor: pointer;
+  min-height: 50px;
+  border: 2px solid black;
+  background-color: green;
+}
+.dimon-c-navigation__wrapper{  
+  min-height: 50px;
+  display: flex;
+  min-width: 30%;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.dimon-e-navigation__item {
+  min-height: 50px;
+  flex-basis: 25%;
+  list-style: none;
+}
+.dimon-e-navigation__item > a {
+  text-decoration: none;
+  display: block;
+  min-height: 50px;
+  margin-top: 25px;
+  color: cyan;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.dimon-e-navigation__item:hover {
+  background-color: blueviolet;
+}
 .dimon-c-block {
   width: 100%;
   max-width: 600px;
@@ -24,3 +77,9 @@
   max-width: 300px;
   width: 100%;
 }
+/* footer */
+.c-footer {
+  padding: 20px 0 10px;
+  text-align: center;
+}
+/* end of footer block */
