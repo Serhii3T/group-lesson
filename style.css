@@ -29,7 +29,93 @@ li {
   background-color: blue;
   margin: 0 10px;
   padding: 50px;
+
 }
+/* Dimon section css */
+.dimon-e-navigation__item {
+ text-align: center;
+  list-style: none;
+  padding: 0;
+  max-width: 300px;
+}
+.dimon-e-navigation__item > a {
+  padding: 50px;
+  text-decoration: none;
+  display: block;
+  color: cyan;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.dimon-e-navigation__item:hover {
+  background-color: blueviolet;
+}
+.dimon-c-block {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid gray;
+  box-shadow: 10px 5px 5px red;
+  margin: 0 auto;
+}
+.dimon-c-block__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.dimon-c-block__audio {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+.dimon-e-block__audio {
+  width: 100%;
+}
+
+/* trit nav */
+.trit-c-nav__wrapper {
+  padding: 20px 0;
+}
+
+.trit-c-nav__list {
+  width: fit-content;
+  list-style: none;
+  display: flex;
+}
+
+.trit-c-nav__list__link {
+  background-color: yellow;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 15px;
+  margin: 0 20px;
+}
+
+.trit-c-nav__list__link:hover {
+  background-color: green;
+}
+
+.trit-e-nav__link {
+  text-decoration: none;
+}
+/* end of trit nav block */
+/* end of header */
+
+/* main */
+/* trit section */
+.trit-c-main {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.trit-c-main__title-name {
+  font-size: 40px;
+}
+
+.trit-c-main__text-quote {
+  font-size: 20px;
+}
+/* end of trit section */
+/* end of main */
+
 
 /* footer */
 .c-footer {
