@@ -18,6 +18,19 @@ body {
   text-align: center;
 }
 
+.c-navigation__list {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  padding: 20px;
+}
+
+li {
+  background-color: blue;
+  margin: 0 10px;
+  padding: 50px;
+}
+
 /* footer */
 .c-footer {
   padding: 20px 0 10px;
