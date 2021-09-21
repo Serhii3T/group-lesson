@@ -1,0 +1,26 @@
+/* global style */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* end of global style */
+
+/* header */
+.c-header__main-title {
+  text-align: center;
+}
+
+/* footer */
+.c-footer {
+  padding: 20px 0 10px;
+  text-align: center;
+}
+/* end of footer block */
