@@ -17,10 +17,11 @@
 /*===============================*/
 /* Words Sections Template */
 /* WDRSEC */
+
 .pashab-c-block__one {
     border-radius: 20px;
     background: #4e7851;
-    display: inline-flex;
+    display: inline-grid;
     flex-direction: column;
     align-items: center;
     position: center;
@@ -33,7 +34,7 @@
 .pashab-c-block__two {
     border-radius: 20px;
     background: #FFA500;
-    display: inline-flex;
+    display: inline-grid;
     flex-direction: column;
     align-items: center;
     position: center;
@@ -41,12 +42,12 @@
     line-height: 1px;
     width: 200px;
     height:200px;
-    margin: -125px 0 0 100px;
+    margin: 125px 0 0 125px;
 }
 .pashab-c-block__three {
     border-radius: 20px;
     background: #483248;
-    display: inline-flex;
+    display: inline-grid;
     flex-direction: column;
     align-items: center;
     position: center;
@@ -54,7 +55,19 @@
     line-height: 1px;
     width: 200px;
     height:200px;
-    margin: -125px 0 0 100px;
+    margin: 125px 0 0 125px;
+}
+.pashab-c-block__backbt {
+    border-radius: 20px;
+    background: #b8aab8;
+    display: inline-grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1px;
+    width: 100px;
+    height: 100px;
+    margin: 70px 0 0 125px;
 }
 /* MAIN = Word ; TRS = Transcription ; DECR = Translation */
 .pashab-wdrsec-c-text__MAIN {
